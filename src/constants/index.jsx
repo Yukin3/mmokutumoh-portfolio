@@ -6,44 +6,51 @@ export const ABOUT_TEXT = `I am a dedicated and versatile software engineer and 
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "August 2024 - Present",
+    role: "Computer Science Tutor",
+    company: "Awty International School",
+    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    technologies: ["Javascript", "Python", "Team Management"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "May 2024 - August 2024",
+    role: "IT Repair Technician",
+    company: "SSMHEALTH",
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["Hardware repair", "Technical documentation", "System Configuration"],
   },
+
 ];
 
 export const PROJECTS = [ 
+  {
+    title: "Lingua Duo",
+    image: project1,
+    description:
+      "Duolingo clone WIP",
+    technologies: ["Typescript", "Node.js", "PostgreSQL"],
+  },
   {
     title: "University and Professor Review application - www.RMPClone.vercell.app",
     image: project1,
     description:
       "I created a web app similar to rate my  professor where users can log and search information about a specifc professor or school. I built this application using react and i make API calls using express/node. i gather data from a university details API, storing them in a PostgreSQL database with AWS.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["React", "Node.js", "MongoDB", "AWS"],
   },
   {
-    title: "Theme Park Management Dashboard - www.ShastaWorld.vercel.app",
+    title: "ShastaWorld",
     image: project1,
     description:
-      "As part of a team, I managed the front end development of a theme park managment application. I used React and MUI to build a admin interface where they can view summaries and reports fetched from the backend.",
+      "Collaborated with a partner  to develop a fully-functional theme park management dashboard for a 3000-level course project, amounting to a total of 450+ commits, and resulting in a grade of 100%. Handicapped with 3 absent teammates, I was actively involved in the design, coding, and testing phases for both the front  and back-end. Deployed the frontend with Vercel and the backend on AWS with Docker for containerization, allowing for seamless scalability.",
     technologies: ["React", "Python", "AWS", "MySQL"],
   },
   {
-    title: "Portfolio Website - www.MmokutUmoh.com",
+    title: "PennyWise",
     image: project1,
     description:
-      "I made a personal portfolio website to showcase my projects, skills, and work experience. The application was made with react using tailwind CSS. In addition, i used framer to add a dynamic movement effect. ",
-    technologies: ["React", "Tailwind CSS"],
+      "Developed a Neobank web application to manage transactions and balances across multiple bank accounts using data fetched from the (insert used APIs here) and integrated the Stripe API to safely and efficiently allow the transfer of funds between bank accounts and other users. Dedicated 150+ hours of work towards the app’s user interface and code infrastructure using Figma.",
+    technologies: ["Typescript", "Python", "MySQL"],
   },
-
 ];
 
 export const CONTACT = {
