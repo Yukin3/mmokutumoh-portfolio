@@ -17,7 +17,7 @@ const Experience = () => {
             </div>
             <div className="w-full  max-width-xl lg:w-3/4">
                 <h6 className="mb-2 font-semibold">
-                    {experience.role} - <span className="text-sm  text-purple-100"> {experience.company}</span>
+                    {experience.company} - <span className="text-sm  text-purple-100"> {experience.role}</span>
                 </h6>
                 <p className="mb-4 text-neutral-400">
                     {experience.description}
