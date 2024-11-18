@@ -29,6 +29,7 @@ export const PROJECTS = [
     description:
       "Duolingo clone WIP",
     technologies: ["Typescript", "Node.js", "PostgreSQL"],
+    link: "#",
   },
   {
     title: "University and Professor Review application - www.RMPClone.vercell.app",
@@ -36,6 +37,7 @@ export const PROJECTS = [
     description:
       "I created a web app similar to rate my  professor where users can log and search information about a specifc professor or school. I built this application using react and i make API calls using express/node. i gather data from a university details API, storing them in a PostgreSQL database with AWS.",
     technologies: ["React", "Node.js", "MongoDB", "AWS"],
+    link: "#",
   },
   {
     title: "ShastaWorld",
@@ -43,6 +45,7 @@ export const PROJECTS = [
     description:
       "Collaborated with a partner  to develop a fully-functional theme park management dashboard for a 3000-level course project, amounting to a total of 450+ commits, and resulting in a grade of 100%. Handicapped with 3 absent teammates, I was actively involved in the design, coding, and testing phases for both the front  and back-end. Deployed the frontend with Vercel and the backend on AWS with Docker for containerization, allowing for seamless scalability.",
     technologies: ["React", "Python", "AWS", "MySQL"],
+    link: "https://theme-park-database-project-4i84.vercel.app/",
   },
   {
     title: "PennyWise",
@@ -50,6 +53,8 @@ export const PROJECTS = [
     description:
       "Developed a Neobank web application to manage transactions and balances across multiple bank accounts using data fetched from the (insert used APIs here) and integrated the Stripe API to safely and efficiently allow the transfer of funds between bank accounts and other users. Dedicated 150+ hours of work towards the app’s user interface and code infrastructure using Figma.",
     technologies: ["Typescript", "Python", "MySQL"],
+    link: "#",
+
   },
 ];
 

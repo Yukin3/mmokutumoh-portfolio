@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/MUlogo.png"
+import logo from "../assets/logo.jpg"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
-        <img src={logo} alt="Mmokut Umoh Logo" />
+        <img src={logo} alt="Mmokut Umoh Logo" className="w-[100px]" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/mmokutu/" target="_blank" rel="noopener noreferrer">
