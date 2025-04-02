@@ -16,9 +16,9 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="block mb-6"
                 >
-                    <iframe
-                    src={project.embedUrl} 
-                    width="100%"
+                    <img
+                    src={project.image} 
+                    width="85%"
                     height="200px"  
                     style={{ border: 'none' }}
                     title={project.title}
